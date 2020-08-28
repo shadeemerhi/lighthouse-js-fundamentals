@@ -1,6 +1,9 @@
-function multiply (a, b) {
-  return a*b;
+const whichSchool = function(age) {
+  if(age < 13) {
+    console.log('Elementary School');
+  } else if (age >= 13 && age <= 18) {
+    console.log('Secondary School');
+  } else {
+    console.log('Lighthouse Labs');
+  }
 }
-
-const num = multiply(2,4);
-console.log(num);
